@@ -6,15 +6,19 @@
     <title>Sterlings Custom Journey Builder Activity</title>
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/require.js"></script>
+    <script type="text/javascript" src="js/require.js"></scrip>
+    <script type="text/javascript" src="js/postmonger.js"></scrip>
     <script type="text/javascript">
         (function() {
-            var config = {
-                baseUrl: ''
+          var config = {
+                baseUrl: 'js/',
+                paths: {
+                  app: ''
+                }
             };
 
             var dependencies = [
-                'customActivity'
+                'app/customActivity'
             ];
 
             require(config, dependencies);
