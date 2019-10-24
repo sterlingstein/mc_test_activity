@@ -1,0 +1,3 @@
+### Salesforce Marketing Cloud Custom Activity
+
+This project is a sample custom activity for the Marketing Cloud Journey Builder that I use for testing.  Many of these files are derrived or copied from the Marketing Cloud developer documentation.  This activity isn't meant to do anything useful, other than illustrate the capability, test configurations/icons/styles, and provide boiler plate for other projects.
