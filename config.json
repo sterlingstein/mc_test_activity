@@ -2,57 +2,12 @@
 	"workflowApiVersion": "1.1",
 	"metaData": {
 		"icon": "images/dalekSmall.png",
-    "category": "message",
-    "iconSmall": null,
-    "original_icon": "dalekSmall.png",
-    "isConfigured": true
+    "category": "message"
   },
-  "editable": true,
-  "outcomes": [
-    {
-      "next": "WAITBYDURATION-1"
-    }
-  ],
-  "error": [],
 	"type": "REST",
-	"lang": {
-		"en-US": {
-			"name": "Sterlings Custom Activity (Workflow API v1.1)",
-			"description": "A custom Journey Builder activity using workflow API v1.1 format."
-		}
-	},
-	"arguments": {
-		"execute": {
-			"inArguments": [
-        {"contactKey": "{{Contact.Key}}"},
-        {"firstName": "{{Contact.Attribute.JourneyEntrySource.FirstName}}"},
-        {"lastName": "{{Contact.Attribute.JourneyEntrySource.LastName}}"}
-			],
-			"url": "internal/example/url/execute"
-		}
-	},
-	"configurationArguments": {
-		"publish": {
-			"url": "URI/for/your/activity/publish"
-		}
-	},
 	"userInterfaces": {
 		"configInspector": {
       "size": "medium"
-		}
-	},
-	"schema": {
-		"arguments": {
-			"execute": {
-				"inArguments": [{
-					"myInArgument": {
-						"dataType": "<some data type>",
-						"isNullable": false,
-						"direction": "in"
-					}
-				}],
-				"outArguments": []
-			}
 		}
 	}
 }
