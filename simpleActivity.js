@@ -1,5 +1,3 @@
-'use strict';
-
 const connection = new Postmonger.Session();
 $(window).ready(onRender);
 
