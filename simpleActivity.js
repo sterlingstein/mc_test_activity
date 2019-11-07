@@ -7,7 +7,7 @@ connection.on('initActivity', data => {
 });
 connection.on('clickedNext', () => {
   console.log("called clickedNext");
-  const configuration = JSON.parse(document.getElementById('configuratin').value);
+  const configuration = JSON.parse(document.getElementById('configuration').value);
   // UpdateActivity saves our configuration into Journey Builder.
   connection.trigger('updateActivity', configuration);
 });
